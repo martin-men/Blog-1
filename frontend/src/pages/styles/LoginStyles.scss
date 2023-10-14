@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background: linear-gradient(90deg, #27374D, #9DB2BF);
+}
+
+.leftDecoration {
+    background-color: #5c7283;
+    opacity: 0.7;
+    background: linear-gradient(135deg, #27374D55 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(225deg, #27374D 25%, transparent 25%) -40px 0/ 80px 80px, linear-gradient(315deg, #27374D55 25%, transparent 25%) 0px 0/ 80px 80px, linear-gradient(45deg, #27374D 25%, #5c7283 25%) 0px 0/ 80px 80px;
+    width: 55vw;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.welcome {
+    font-size: 4.5rem;
+    color: #ffffff;
+    font-family: "Lucida Console";
+}
+
+.authentication {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff90;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: "Lucida Console";
+}
+
+h1 {
+    font-size: 2rem;
+    color: #27374D;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1.3rem;
+    border-radius: 30px;
+    background-color: white;
+    padding: 3%;
+}
+
+input {
+    padding: 0.8rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-bottom-left-radius: 10px;
+    font-family: "Lucida Console";
+}
+
+button {
+    padding: 0.8rem;
+    border: none;
+    background: linear-gradient(45deg, #9DB2BF, #526D82, #27374D);
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Lucida Console";
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+span {
+    color: #27374D;
+    font-size: 1rem;
+    text-align: center;
+}
